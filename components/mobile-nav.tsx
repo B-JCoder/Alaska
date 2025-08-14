@@ -19,8 +19,8 @@ export function MobileNav() {
   return (
     <>
       {/* Top Bar */}
-      <header className="bg-white shadow-md">
-        <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
+      <header >
+        <div className="max-w-6xl mx-auto px-1 flex items-center justify-between h-16">
           {/* Logo */}
           {/* <div className="flex items-center gap-2">
             <Image
@@ -36,7 +36,7 @@ export function MobileNav() {
           {/* Hamburger */}
           <button
             onClick={() => setIsOpen(true)}
-            className="lg:hidden p-2 rounded-md border border-gray-300 hover:bg-gray-100 transition"
+            className="lg:hidden transition"
           >
             <Menu className="w-6 h-6" />
           </button>
